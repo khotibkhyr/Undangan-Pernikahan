@@ -81,13 +81,13 @@ export default function App() {
                   animate={{ letterSpacing: "0.4em", opacity: 1 }}
                   className="font-sans text-accent font-bold uppercase text-[10px] tracking-[0.4em]"
                 >
-                  The Wedding Celebration
+                  Undangan Pernikahan
                 </motion.p>
                 <h1 className="font-serif italic text-7xl md:text-9xl py-4 text-primary leading-none tracking-tighter">Alfi & Nur</h1>
               </div>
 
               <div className="space-y-4">
-                <p className="text-text-premium/60 font-sans text-[10px] tracking-[0.2em] uppercase font-semibold">Special Invitation For:</p>
+                <p className="text-text-premium/60 font-sans text-[10px] tracking-[0.2em] uppercase font-semibold">Undangan Spesial Untuk:</p>
                 <div className="bg-white/80 backdrop-blur-xl rounded-[2rem] py-6 px-10 inline-block shadow-[0_15px_45px_-15px_rgba(10,42,31,0.15)] border border-accent/20">
                   <h2 className="text-2xl font-serif italic text-primary">{guestName}</h2>
                 </div>
@@ -99,7 +99,7 @@ export default function App() {
               >
                 <div className="absolute inset-0 bg-accent/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
                 <Heart className="w-4 h-4 fill-accent-light" />
-                <span className="relative">Open Invitation</span>
+                <span className="relative">Buka Undangan</span>
               </button>
             </motion.div>
           </motion.div>
@@ -139,7 +139,7 @@ export default function App() {
             className="relative z-10 space-y-12"
           >
             <div className="space-y-4">
-              <p className="font-sans text-[11px] text-accent font-bold uppercase tracking-[0.6em]">Save the Date</p>
+              <p className="font-sans text-[11px] text-accent font-bold uppercase tracking-[0.6em]">Simpan Tanggalnya</p>
               <div className="h-[1px] w-24 bg-accent/30 mx-auto" />
             </div>
             
@@ -169,7 +169,7 @@ export default function App() {
             <p className="font-serif text-5xl text-accent italic">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
             <div className="relative">
               <p className="text-primary font-light leading-relaxed max-w-2xl mx-auto italic text-xl border-x-4 border-accent/10 px-12 py-6">
-                "Together with our families, we invite you to celebrate our union and share the joy of our wedding day."
+                "Atas nama Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara resepsi pernikahan kami yang InsyaAllah diselenggarakan pada:"
               </p>
               <LuxuryOrnament className="-top-10 -left-10 w-24 -rotate-12 opacity-20" />
               <LuxuryOrnament className="-bottom-10 -right-10 w-24 rotate-12 opacity-20" />
@@ -245,7 +245,7 @@ export default function App() {
               <Heart className="w-6 h-6 text-accent fill-accent/20" />
             </div>
             <p className="text-2xl md:text-3xl font-serif italic text-accent-light leading-relaxed px-8">
-              "True love is not about finding someone perfect, but about finding someone who wants to face imperfection together."
+              "Cinta sejati bukanlah tentang menemukan seseorang yang sempurna, tetapi tentang menemukan seseorang yang mau menghadapi ketidaksempurnaan bersama."
             </p>
             <div className="h-[1px] w-40 bg-accent/20 mx-auto" />
           </motion.div>
@@ -256,8 +256,8 @@ export default function App() {
         <section className="py-32 px-6 bg-bg-premium relative">
           <div className="max-w-6xl mx-auto space-y-24">
             <div className="text-center space-y-4">
-              <h2 className="font-sans text-[11px] text-accent font-bold uppercase tracking-[0.6em]">The Celebration</h2>
-              <h3 className="font-serif italic text-5xl text-primary">Precious Moments</h3>
+              <h2 className="font-sans text-[11px] text-accent font-bold uppercase tracking-[0.6em]">Perayaan</h2>
+              <h3 className="font-serif italic text-5xl text-primary">Momen Berharga</h3>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
@@ -275,7 +275,7 @@ export default function App() {
                   <div className="space-y-6">
                     <p className="text-4xl font-serif text-primary italic">08:00 — 09:00</p>
                     <div className="space-y-3 text-sm text-primary/70">
-                      <p className="font-bold text-primary tracking-widest uppercase text-[12px]">Thursday, 11 June 2026</p>
+                      <p className="font-bold text-primary tracking-widest uppercase text-[12px]">Kamis, 11 Juni 2026</p>
                       <p className="italic leading-relaxed">Ds. Tluwuk Rt 02/Rw 02<br/>Wedarijaksa Pati</p>
                     </div>
                   </div>
@@ -292,13 +292,13 @@ export default function App() {
               >
                 <div className="space-y-8 text-center relative z-10">
                    <div className="inline-block px-10 py-3 border-y border-accent-light/30">
-                    <span className="text-[11px] uppercase tracking-[0.4em] font-sans font-bold text-accent-light">The Wedding Reception</span>
+                    <span className="text-[11px] uppercase tracking-[0.4em] font-sans font-bold text-accent-light">Resepsi Pernikahan</span>
                   </div>
                   <div className="space-y-6">
                     <p className="text-5xl font-serif text-white italic drop-shadow-md">09:00 — Selesai</p>
                     <div className="space-y-3 text-sm text-accent-light/80">
-                      <p className="font-bold text-white tracking-widest uppercase text-[12px]">Thursday, 11 June 2026</p>
-                      <p className="italic leading-relaxed">The Residence of the Bride</p>
+                      <p className="font-bold text-white tracking-widest uppercase text-[12px]">Kamis, 11 Juni 2026</p>
+                      <p className="italic leading-relaxed">Kediaman Mempelai Wanita</p>
                     </div>
                   </div>
                 </div>
@@ -312,7 +312,7 @@ export default function App() {
         <section className="py-32 px-6 bg-primary relative overflow-hidden">
           <div className="max-w-5xl mx-auto space-y-16 relative z-10">
             <div className="text-center space-y-6">
-              <h2 className="font-serif text-5xl text-accent-light italic tracking-tight">Virtual Map</h2>
+              <h2 className="font-serif text-5xl text-accent-light italic tracking-tight">Peta Lokasi</h2>
               <div className="h-[2px] w-32 bg-gradient-to-r from-transparent via-accent to-transparent mx-auto" />
             </div>
 
@@ -340,7 +340,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="px-10 py-4 bg-accent text-primary rounded-full font-bold text-xs uppercase tracking-widest hover:bg-accent-light transition-all shadow-xl hover:-translate-y-1"
                     >
-                      Open in Maps
+                      Buka di Peta
                     </a>
                   </div>
                 </div>
@@ -354,7 +354,7 @@ export default function App() {
                       className="w-full h-full object-contain grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                     />
                  </div>
-                 <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary/40">Scan For Location</p>
+                 <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-primary/40">Pindai untuk Lokasi</p>
               </div>
             </div>
           </div>
@@ -367,7 +367,7 @@ export default function App() {
           <div className="max-w-3xl mx-auto space-y-16 relative z-10">
             <div className="space-y-8">
               <p className="text-primary/40 text-[10px] font-sans tracking-[0.5em] font-bold uppercase italic">
-                #AlfiNurJourney — Forever & Always
+                #AlfiNurJourney — Selamanya & Selalu
               </p>
               <div className="flex items-center justify-center gap-6 text-primary">
                 <span className="font-serif italic text-6xl md:text-8xl py-4 gold-shimmer">Alfi & Nur</span>
@@ -376,17 +376,17 @@ export default function App() {
 
             <div className="grid grid-cols-2 gap-12 text-[10px] text-primary/40 uppercase tracking-[0.3em] font-sans">
               <div className="space-y-4">
-                <p className="text-accent/60 font-bold border-b border-accent/10 pb-2">Bride's Family</p>
+                <p className="text-accent/60 font-bold border-b border-accent/10 pb-2">Keluarga Mempelai Wanita</p>
                 <p className="text-primary font-bold text-sm italic">Bapak Kanapi & Ibu Masudah</p>
               </div>
               <div className="space-y-4">
-                <p className="text-accent/60 font-bold border-b border-accent/10 pb-2">Groom's Family</p>
+                <p className="text-accent/60 font-bold border-b border-accent/10 pb-2">Keluarga Mempelai Pria</p>
                 <p className="text-primary font-bold text-sm italic">Bapak Sunardi & Ibu Rakini (Almh)</p>
               </div>
             </div>
 
             <div className="pt-20 border-t border-accent/10 space-y-6">
-              <p className="text-[9px] text-primary/30 uppercase tracking-[0.4em] font-sans">© 2026 Crafted with Excellence for Alfi & Nur</p>
+              <p className="text-[9px] text-primary/30 uppercase tracking-[0.4em] font-sans">© 2026 Dibuat dengan Penuh Cinta untuk Alfi & Nur</p>
             </div>
           </div>
           <LuxuryOrnament className="-bottom-20 -left-20 w-96 opacity-10" />
